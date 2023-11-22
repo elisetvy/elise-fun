@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Landing() {
 
@@ -12,7 +12,7 @@ function Landing() {
                 </div>
                 <div className="bg-yellow-500 border-8 border-solid border-black h-96 w-3/5 mr-0"></div>
                 <div className="absolute bg-slate-100 border-8 border-solid border-black top-28 left-48 w-3/5 px-6 py-6">
-                    <p className="text-5xl">HI I'M ELISE</p>
+                    <p className="text-5xl">HI I&apos;M ELISE</p>
                     <p className="text-yellow-500 text-5xl py-4">WEBMASTER</p>
                     <p className="font-mono text-2xl">Full-stack software engineer passionate about creativity, user experience, and good times.</p>
                     <div className="flex gap-2 mt-8">
