@@ -2,8 +2,9 @@ import { BrowserRouter } from "react-router-dom"
 
 import Banner from "./Banner";
 import Landing from "./Landing"
-import LatestProject from "./LatestProject";
-import LatestExperience from "./LatestExperience";
+import Foqal from "./Foqal";
+import Friender from "./Friender";
+import NK from "./NK";
 import Contact from "./Contact";
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
       <BrowserRouter>
         <Banner />
         <Landing />
-        {/* <LatestProject />
-        <LatestExperience />
-        <Contact /> */}
+        <Foqal />
+        <Friender />
+        <NK />
+        <Contact />
       </BrowserRouter>
     </div>
   )
