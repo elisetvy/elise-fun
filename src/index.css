@@ -11,6 +11,11 @@
   font-family: 'Dela Gothic One';
 }
 
+.c-stroke {
+  -webkit-text-stroke: 2px black;
+}
+
 .help-border {
   border: 1px solid red;
 }
+

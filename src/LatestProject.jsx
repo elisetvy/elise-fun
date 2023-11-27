@@ -1,11 +1,10 @@
 function LatestProject() {
 
     return (
-        <div className="pr-5">
-            <div className="bg-indigo-500 h-screen border-t-4 border-b-4 border-r-4 border-solid border-black">
-                <div className="border-8 border-solid border-black bg-slate-50 mt-24 ml-20 w-2/6 h-fit px-6 py-6 text-xl">
+        <div className="flex px-5 pt-5">
+            <div className="bg-green-300 border-4 border-solid border-black px-5 py-5 ">
                     Currently Working On
-                    <div className="bg-black h-1 mt-1 mb-1"></div>
+                    <div className="bg-black h-0.5 mt-1 mb-1"></div>
                         <div className="">
                             <p className="text-sm">Love Notes</p>
                             <p className="font-mono text-sm">An app for meeting people near you.</p>
@@ -27,7 +26,6 @@ function LatestProject() {
                                 <p>Jest</p>
                             </div>
                         </div>
-                </div>
             </div>
         </div>
     )
