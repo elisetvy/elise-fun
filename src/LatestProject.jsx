@@ -11,7 +11,7 @@ function LatestProject() {
                             <p className="font-mono text-sm">An app for meeting people near you.</p>
                             <ul className="list-disc font-mono text-sm px-6 py-2">
                                 <li>Utilized AWS S3 for secure storage and retrieval of user-uploaded images</li>
-                                <li>Implemented robust server-side and client-side validation to maintain data integrity, reduce server load caused by invalid or improperly formatted data, and improve user experience </li>
+                                <li>Implemented robust server-side and client-side validation to maintain data integrity, reduce server load caused by invalid or improperly formatted data, and improve user experience</li>
                                 <li>Wrote and executed comprehensive unit and integration tests using Jest and Supertest</li>
                             </ul>
                             <div className="flex flex-wrap text-xs justify-center items-center text-center gap-2">
