@@ -11,16 +11,18 @@ function App() {
 
   return (
     <div className="bg-slate-50">
-      <BrowserRouter>
-        <Banner />
-        <Landing />
-        <Foqal />
-        <Friender />
-        <NK />
-        <Contact />
-      </BrowserRouter>
+      <div className="max-w-screen-md ml-auto mr-auto">
+        <BrowserRouter>
+          <Banner />
+          <Landing />
+          <Foqal />
+          <Friender />
+          <NK />
+          <Contact />
+        </BrowserRouter>
+      </div>
     </div>
   )
 }
 
-export default App
+export default App;
